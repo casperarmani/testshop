@@ -1,0 +1,49 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Theme settings
+config/settings_data.json
+
+# Environment files
+.env
+.env.*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build files
+dist/
+build/
+upload/
+deploy.log
+
+# Optional: Shopify CLI files
+.shopify-cli.yml
+.shopify.yml
+.shopifyignore
+
+# Log files
+*.log
+
+# Local development files
+.theme-check.yml
+.theme-check.json
+config.yml
