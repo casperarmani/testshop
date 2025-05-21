@@ -47,3 +47,11 @@ deploy.log
 .theme-check.yml
 .theme-check.json
 config.yml
+
+# Source maps
+*.map
+
+# Source files (if build process is used)
+*.scss
+*.scss.liquid
+*.ts

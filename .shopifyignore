@@ -1,0 +1,31 @@
+# Exclude development-only files from theme deployment
+.gitignore
+README.md
+package.json
+package-lock.json
+node_modules/
+.shopifyignore
+config.yml
+.env
+
+# Exclude source files not needed by Shopify (if using a build pipeline)
+src/
+webpack.config.js
+*.scss
+*.scss.liquid
+*.ts
+*.map
+
+# Exclude local/testing config and data
+config/settings_data.json
+sections/*.context*.json
+
+# Exclude OS and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Exclude git files
+.git/
+.github/
+.gitattributes
